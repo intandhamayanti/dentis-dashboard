@@ -79,7 +79,7 @@ export default function AppointmentsView() {
 
         {/* Status Filter & Doctor Filter & Count */}
         <div className="flex flex-wrap items-center justify-between md:justify-end gap-2.5 w-full md:w-auto">
-          {/* Status Jadwal Filter (Murni Status: Confirmed, Pending, Selesai, Dibatalkan) */}
+          {/* Status Filter */}
           <div className="relative w-full sm:w-auto">
             <select
               value={statusFilter}

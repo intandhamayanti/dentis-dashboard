@@ -278,7 +278,7 @@ export default function Sidebar({ isOpenMobile, onCloseMobile }: SidebarProps) {
                   </button>
                 </div>
 
-                {/* 2. Daftar Dokter (Baku & standar Indonesia, bukan 'Roster') */}
+                {/* 2. Daftar Dokter */}
                 <div className="relative group">
                   <span className="absolute -left-3 top-1/2 -translate-y-1/2 w-2.5 h-[1.5px] bg-slate-200/90" />
                   <button

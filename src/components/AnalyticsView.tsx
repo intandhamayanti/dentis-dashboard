@@ -204,7 +204,7 @@ export default function AnalyticsView() {
       </div>
 
       {/* ============================================================== */}
-      {/* 4 METRIC CARDS: DENTIS CARD DNA CONTAINER (TEAL CONTAINER)     */}
+      {/* Metric Cards Summary */}
       {/* ============================================================== */}
       <div className="p-2.5 sm:p-3.5 rounded-[22px] sm:rounded-[28px] bg-[#0D5966] shadow-sm">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">

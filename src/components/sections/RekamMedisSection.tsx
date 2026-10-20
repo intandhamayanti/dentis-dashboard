@@ -71,7 +71,7 @@ export const RekamMedisSection: React.FC = () => {
   return (
     <div className="space-y-5 animate-fade-in pb-14">
       {/* ============================================================== */}
-      {/* 3 METRIC CARDS: SIGNATURE DENTIS CARD DNA CONTAINER (TEAL)     */}
+      {/* Metric Cards Summary */}
       {/* ============================================================== */}
       <div className="p-2.5 sm:p-3.5 rounded-[22px] sm:rounded-[28px] bg-[#0D5966] shadow-sm">
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5 sm:gap-3">

@@ -849,7 +849,7 @@ export default function DoctorsShiftsView() {
       </div>
 
       {/* ========================================================================= */}
-      {/* 2. CONTAINER IJO (DEEP TEAL #0D5966) WITH 4 METRIC CARDS (OVERVIEW DNA) */}
+      {/* 2. Metric Cards Container */}
       {/* ========================================================================= */}
       <div className="p-2.5 sm:p-3.5 rounded-[22px] sm:rounded-[28px] bg-[#0D5966] shadow-sm">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
@@ -2046,7 +2046,7 @@ export default function DoctorsShiftsView() {
       )}
 
       {/* ========================================================================= */}
-      {/* 8. POPUP: EVENT DETAIL MODAL (HANYA 1 FOTO DOKTER)                         */}
+      {/* 8. Event Detail Modal */}
       {/* ========================================================================= */}
       {selectedEvent && (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 overflow-y-auto">

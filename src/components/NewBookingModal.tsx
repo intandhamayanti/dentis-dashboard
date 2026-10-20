@@ -22,7 +22,6 @@ import {
   MessageCircle,
 } from 'lucide-react';
 
-// Butter-smooth 60FPS Viewport Canvas Confetti (Burst, 3D Flutter, Air Drag, and Auto-cleanup)
 function CelebrationConfetti() {
   const canvasRef = React.useRef<HTMLCanvasElement | null>(null);
 
@@ -41,7 +40,6 @@ function CelebrationConfetti() {
     canvas.height = height * dpr;
     ctx.scale(dpr, dpr);
 
-    // Harmonious Dentis color palette
     const colors = [
       '#0D5966', // Dentis Deep Teal
       '#0F766E', // Forest Teal

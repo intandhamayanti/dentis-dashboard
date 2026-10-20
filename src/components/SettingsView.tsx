@@ -1464,7 +1464,7 @@ export default function SettingsView() {
                     key={`${doctor.id}-${idx}`}
                     className="w-[260px] sm:w-[280px] shrink-0 bg-[#0D5966] p-2.5 sm:p-3 rounded-3xl shadow-lg border border-[#0D5966]/20 flex flex-col gap-2.5 select-none"
                   >
-                    {/* Foto Portrait: Square 1:1, full wajah terlihat jelas */}
+                    {/* Foto Portrait */}
                     <div className="relative aspect-square w-full rounded-[20px] overflow-hidden bg-[#F3F5F4] border border-white/10 shadow-xs">
                       <Image
                         src={doctor.avatarUrl}
@@ -1561,7 +1561,7 @@ export default function SettingsView() {
             </div>
           </div>
 
-          {/* FAQ Preview in Teal DNA Container */}
+          {/* FAQ Preview Container */}
           <div className="p-6 rounded-[32px] bg-[#0D5966] space-y-4 shadow-sm">
             <div className="text-center text-white space-y-1">
               <span className="px-3 py-1 rounded-full bg-white/20 text-[10px] font-bold uppercase">
