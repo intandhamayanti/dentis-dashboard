@@ -2,8 +2,6 @@
 
 Dashboard internal klinik gigi modern **Dentis** yang dirancang untuk mengelola operasional harian, manajemen reservasi pasien & web leads, database rekam medis, jadwal praktik dokter spesialis, analitik keuangan, serta sistem CMS terintegrasi untuk website klinik.
 
-![Dashboard Preview](./Dashboard.png)
-
 ## Fitur Utama
 
 - **Overview & Operasional**: Monitoring antrean pasien harian, ketersediaan dokter on-duty, statistik okupansi dental unit, dan ringkasan operasional real-time.
