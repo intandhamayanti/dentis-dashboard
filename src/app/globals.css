@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+:root {
+  --font-bricolage: 'Bricolage Grotesque', system-ui, -apple-system, sans-serif;
+  --bg-base: #F3F5F4;
+  --teal-primary: #0D5966;
+  --teal-dark: #083F49;
+  --teal-light: #167C8E;
+  --teal-surface: #E8F2F4;
+  --card-white: #FFFFFF;
+}
+
+* {
+  font-family: var(--font-bricolage);
+  box-sizing: border-box;
+}
+
+html {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--bg-base);
+  color: #1E293B;
+  min-height: 100vh;
+  max-width: 100vw;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F3F5F4;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0D5966;
+}
+
+/* Clean, Minimalist Transitions & Base */
+.dentis-card {
+  background-color: #FFFFFF;
+  border: 1px solid rgba(226, 232, 240, 0.8);
+  border-radius: 16px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.03);
+}
+
+/* Subtle, non-intrusive fade */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.15s ease-out forwards;
+}
